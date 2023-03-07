@@ -1,121 +1,127 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/coordinatorLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F2F2F2"
     tools:context=".MainActivity">
 
-    <androidx.appcompat.widget.Toolbar
-        android:id="@+id/toolbar"
-        android:layout_width="411dp"
-        android:layout_height="136dp"
-        android:background="?attr/colorPrimary"
-        android:minHeight="?attr/actionBarSize"
-        android:theme="?attr/actionBarTheme"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="-3dp" />
-
-    <ProgressBar
-        android:id="@+id/progressBar"
-        style="?android:attr/progressBarStyleHorizontal"
-        android:layout_width="173dp"
-        android:layout_height="17dp"
-        android:max="@integer/material_motion_duration_medium_1"
-        android:progress="@integer/material_motion_duration_short_2"
-        android:progressTint="#D4354D"
-        tools:layout_editor_absoluteX="119dp"
-        tools:layout_editor_absoluteY="84dp" />
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="50 pontos"
-        android:textAlignment="center"
-        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-        android:textColor="#2F2F2F"
-        android:textSize="10sp"
-        android:textStyle="bold"
-        tools:layout_editor_absoluteX="183dp"
-        tools:layout_editor_absoluteY="70dp" />
+    <ImageView
+        android:id="@+id/image_circle_"
+        android:layout_width="215dp"
+        android:layout_height="129dp"
+        android:layout_marginEnd="268dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.401"
+        app:srcCompat="@drawable/baseline_circle_24" />
 
     <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="48dp"
-        android:layout_height="49dp"
-        tools:layout_editor_absoluteX="64dp"
-        tools:layout_editor_absoluteY="58dp"
-        tools:srcCompat="@tools:sample/avatars" />
-
-    <androidx.cardview.widget.CardView
-        android:id="@+id/card_view"
-        android:layout_width="371dp"
-        android:layout_height="120dp"
-        android:layout_gravity="center"
-        app:cardCornerRadius="4dp"
-        tools:layout_editor_absoluteX="18dp"
-        tools:layout_editor_absoluteY="150dp"/>
-
-    <androidx.cardview.widget.CardView
-        android:id="@+id/card_view"
-        android:layout_width="371dp"
-        android:layout_height="120dp"
-        android:layout_gravity="center"
-        app:cardCornerRadius="4dp"
-        tools:layout_editor_absoluteX="20dp"
-        tools:layout_editor_absoluteY="290dp" />
-
-    <androidx.cardview.widget.CardView
-        android:id="@+id/card_view"
-        android:layout_width="371dp"
-        android:layout_height="120dp"
-        android:layout_gravity="center"
-        app:cardCornerRadius="4dp"
-        tools:layout_editor_absoluteX="24dp"
-        tools:layout_editor_absoluteY="434dp">
-
-    </androidx.cardview.widget.CardView>
-
-    <androidx.cardview.widget.CardView
-        android:id="@+id/card_view"
-        android:layout_width="371dp"
-        android:layout_height="120dp"
-        android:layout_gravity="center"
-        app:cardCornerRadius="4dp"
-        tools:layout_editor_absoluteX="24dp"
-        tools:layout_editor_absoluteY="579dp" />
+        android:id="@+id/image_circle_2"
+        android:layout_width="215dp"
+        android:layout_height="129dp"
+        android:layout_marginEnd="300dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.958"
+        app:srcCompat="@drawable/baseline_circle_24" />
 
     <TextView
-        android:id="@+id/textView2"
-        android:layout_width="45dp"
-        android:layout_height="20dp"
-        android:text="Home"
-        android:textColor="#2F2F2F"
-        android:textSize="16sp"
-        android:textStyle="bold"
-        tools:layout_editor_absoluteX="64dp"
-        tools:layout_editor_absoluteY="16dp" />
+        android:id="@+id/description"
+        android:layout_width="238dp"
+        android:layout_height="158dp"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/main_description"
+        android:textSize="22dp"
+        android:layout_marginStart="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.146"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/better_together_logo"
+        app:layout_constraintVertical_bias="0.263" />
 
-    <ImageButton
-        android:id="@+id/imageButton2"
-        android:layout_width="28dp"
-        android:layout_height="32dp"
-        android:background="@android:color/transparent"
-        android:rotation="29"
-        app:srcCompat="@android:drawable/ic_popup_reminder"
-        tools:layout_editor_absoluteX="347dp"
-        tools:layout_editor_absoluteY="16dp" />
+    <ImageView
+        android:id="@+id/better_together_logo"
+        android:layout_width="192dp"
+        android:layout_height="111dp"
+        android:layout_marginTop="116dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo_principal" />
 
-    <ImageButton
-        android:id="@+id/imageButton3"
-        android:layout_width="37dp"
-        android:layout_height="37dp"
-        android:background="@android:color/transparent"
-        app:srcCompat="@android:drawable/btn_star"
-        tools:layout_editor_absoluteX="297dp"
-        tools:layout_editor_absoluteY="70dp" />
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="277dp"
+        android:layout_height="152dp"
+        android:layout_marginEnd="264dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.062"
+        app:srcCompat="@drawable/baseline_circle_24_green" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="277dp"
+        android:layout_height="152dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.844"
+        android:layout_marginStart="290dp"
+        app:srcCompat="@drawable/baseline_circle_24_green" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="288dp"
+        android:layout_height="202dp"
+        android:layout_marginStart="260dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.005"
+        app:srcCompat="@drawable/baseline_circle_24_green" />
+
+    <Button
+        android:id="@+id/collaborator_btn"
+        android:width="100dp"
+        android:textSize="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/collaborator_button"
+        android:backgroundTint="#249451"
+        android:textColor="@color/white"
+        android:layout_marginEnd="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/company_btn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.774" />
+
+    <Button
+        android:id="@+id/company_btn"
+        android:width="100dp"
+        android:textSize="10dp"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/company_button"
+        android:backgroundTint="#D4354D"
+        android:layout_marginStart="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/collaborator_btn"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.774" />
+
+
+
+
+</android.support.constraint.ConstraintLayout>
+
+</android.support.constraint.ConstraintLayout>
