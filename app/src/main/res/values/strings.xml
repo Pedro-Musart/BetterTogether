@@ -6,4 +6,7 @@
     </string>
     <string name="company_button">Empresa</string>
     <string name="collaborator_button">Colaborador</string>
+    <string name="allow_policy">Eu concordo com as Políticas de Privacidade</string>
+    <string name="password_power">Força da senha:</string>
+    <string name="create_account">Criar a conta</string>
 </resources>

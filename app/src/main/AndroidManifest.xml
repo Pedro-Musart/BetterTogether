@@ -12,6 +12,15 @@
         android:theme="@style/Theme.BetterTogether"
         tools:targetApi="31">
         <activity
+            android:name=".CollaboratorSignUp"
+            android:exported="false"
+            android:parentActivityName=".MainActivity"/>
+        <activity
+            android:name=".SignUpActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity">
+        </activity>
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
