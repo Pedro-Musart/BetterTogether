@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">betterTogether</string>
+    <string name="main_description">
+        <br>Una-se para um</br>
+        <br>mundo melhor </br>
+    </string>
+    <string name="company_button">Empresa</string>
+    <string name="collaborator_button">Colaborador</string>
+</resources>
