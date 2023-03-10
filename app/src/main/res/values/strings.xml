@@ -1,12 +1,10 @@
 <resources>
     <string name="app_name">betterTogether</string>
-    <string name="main_description">
-        <br>Una-se para um</br>
-        <br>mundo melhor </br>
-    </string>
-    <string name="company_button">Empresa</string>
-    <string name="collaborator_button">Colaborador</string>
-    <string name="allow_policy">Eu concordo com as Políticas de Privacidade</string>
-    <string name="password_power">Força da senha:</string>
-    <string name="create_account">Criar a conta</string>
+    <string name="main_description">Unite for a better world</string>
+    <string name="main_subdescription">Here we turn good attitudes into rewards for you and for everyone!</string>
+    <string name="company_button">Company</string>
+    <string name="collaborator_button">Collaborator</string>
+    <string name="allow_policy">I agree with the Privacy Policies</string>
+    <string name="password_power">Password strength:</string>
+    <string name="create_account">Create account</string>
 </resources>
