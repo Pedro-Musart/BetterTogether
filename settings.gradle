@@ -12,5 +12,5 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-rootProject.name = "betterTogether"
+rootProject.name = "home"
 include ':app'
