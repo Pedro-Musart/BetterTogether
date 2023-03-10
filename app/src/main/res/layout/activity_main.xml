@@ -55,15 +55,15 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/logo" />
 
-    <Button
+    <android.support.v7.widget.AppCompatButton
         android:id="@+id/collaborator_btn"
         android:layout_width="150dp"
         android:layout_height="0dp"
         android:layout_marginBottom="64dp"
         android:width="100dp"
-        android:backgroundTint="#249451"
+        android:background="@drawable/background_button_green"
         android:fontFamily="@font/open_sans_bold"
-        android:padding="18dp"
+        android:padding="5dp"
         android:text="@string/collaborator_button"
         android:textColor="@color/white"
         android:textSize="14sp"
@@ -72,15 +72,15 @@
         app:layout_constraintHorizontal_bias="0.15"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <Button
+    <android.support.v7.widget.AppCompatButton
         android:id="@+id/collaborator_btn2"
         android:layout_width="150dp"
         android:layout_height="0dp"
         android:layout_marginBottom="64dp"
         android:width="100dp"
-        android:backgroundTint="#D4354D"
+        android:background="@drawable/background_button_pink"
         android:fontFamily="@font/open_sans_bold"
-        android:padding="18dp"
+        android:padding="5dp"
         android:text="@string/company_button"
         android:textColor="@color/white"
         android:textSize="14sp"
