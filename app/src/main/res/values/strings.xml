@@ -1,4 +1,5 @@
 <resources>
+
     <string name="app_name">Home</string>
     <string name="menu">Menu</string>
     <string name="notification">Notification</string>
@@ -17,4 +18,5 @@
     <string name="locomotion_image">Adhere to use a bicycle to travel to the company</string>
     <string name="locomotion">Adhere to use a bicycle to travel to the company</string>
     <string name="locomotion_point">3 points</string>
+    
 </resources>
