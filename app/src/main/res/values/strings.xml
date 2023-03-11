@@ -7,4 +7,12 @@
     <string name="allow_policy">I agree with the Privacy Policies</string>
     <string name="password_power">Password strength:</string>
     <string name="create_account">Create account</string>
+
+
+    <!-- Images description -->
+
+    <string name="main_bg_description">White background with red and greens balls</string>
+    <string name="logo_description">The logo features a green and red symbol in the shape of a
+        flower, but in a minimalist way represents people with raised arms. The logo has the
+        words "Better Together" in the same colors as the symbol.</string>
 </resources>

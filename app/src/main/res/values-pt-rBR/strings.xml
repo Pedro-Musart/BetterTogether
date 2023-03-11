@@ -8,4 +8,13 @@
     <string name="allow_policy">Eu concordo com as Políticas de Privacidade</string>
     <string name="password_power">Força da senha:</string>
     <string name="create_account">Criar a conta</string>
+
+
+    <!-- Descrição das imagens -->
+
+    <string name="main_bg_description">Fundo branco com bolas vermelhas e verdes</string>
+    <string name="logo_description">A logotipo possui um símbolo verde e vermelho com o formato
+        de uma flor, porém de forma minimalísta representa pessoas com os braços erguidos. A logo
+        possui as palavras "Better Together" com as mesmas cores do símbolo"
+    </string>
 </resources>
