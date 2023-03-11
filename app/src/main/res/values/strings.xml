@@ -1,10 +1,20 @@
 <resources>
-    <string name="app_name">Better Together</string>
-    <string name="main_description">Unite for a better world</string>
-    <string name="main_subdescription">Here we turn good attitudes into rewards for you and for everyone!</string>
-    <string name="company_button">Company</string>
-    <string name="collaborator_button">Collaborator</string>
-    <string name="allow_policy">I agree with the Privacy Policies</string>
-    <string name="password_power">Password strength:</string>
-    <string name="create_account">Create account</string>
+    <string name="app_name">Home</string>
+    <string name="menu">Menu</string>
+    <string name="notification">Notification</string>
+    <string name="profile">Profile</string>
+    <string name="medal">Medal</string>
+    <string name="points">50 points</string>
+    <string name="food_image">Food donation for all regions of Brazil</string>
+    <string name="food">Food donation for all regions of Brazil</string>
+    <string name="food_point">23 points</string>
+    <string name="exercise_image">Do physical exercises regularly</string>
+    <string name="exercise">Do physical exercises regularly</string>
+    <string name="exercise_point">5 points</string>
+    <string name="blood_image">Blood Donation in Sao Paulo</string>
+    <string name="blood">Blood Donation in Sao Paulo</string>
+    <string name="blood_point">20 points</string>
+    <string name="locomotion_image">Adhere to use a bicycle to travel to the company</string>
+    <string name="locomotion">Adhere to use a bicycle to travel to the company</string>
+    <string name="locomotion_point">3 points</string>
 </resources>
