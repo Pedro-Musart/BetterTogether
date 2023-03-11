@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">betterTogether</string>
+    <string name="app_name">Better Together</string>
     <string name="main_description">Una se para um mundo melhor </string>
     <string name="main_subdescription">Aqui nós transformamos as boas atitudes em recompensas para você e para todos!</string>
     <string name="company_button">Empresa</string>
