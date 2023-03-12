@@ -18,6 +18,28 @@
         possui as palavras "Better Together" com as mesmas cores do símbolo"
     </string>
 
+    <!--Formulário empresa-->
+
+    <string name="business_account">Criar conta de empresa</string>
+    <string name="company_name">Nome da Empresa</string>
+    <string name="company_email">Email da Empresa</string>
+    <string name="company_phone">Telefone da Empresa</string>
+    <string name="company_cnpj">CNPJ da Empresa</string>
+    <string name="company_employees">Número de Funcionários</string>
+    <string name="company_site">Website da Empresa</string>
+    <string name="company_password">Senha</string>
+    <string name="password_strength">Força da senha:</string>
+    <string name="allow">Eu concordo com as </string>
+    <string name="policies">Políticas de Privacidade</string>
+
+    <!--Formulário de usuário-->
+    <string name="collaborator_account">Criar uma conta de colaborador</string>
+    <string name="user_name">Nome</string>
+    <string name="user_email">E-mail de contato</string>
+    <string name="user_phone">Número de telefone</string>
+    <string name="company_code">Código da empresa</string>
+
+
     <!-- Home -->
     <string name="home">Home</string>
     <string name="menu">Menu</string>

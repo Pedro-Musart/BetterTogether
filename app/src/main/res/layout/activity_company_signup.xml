@@ -6,11 +6,11 @@
     android:layout_height="match_parent">
 
     <ImageView
-        android:id="@+id/background_green"
+        android:id="@+id/background_red"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:scaleType="centerCrop"
-        android:src="@drawable/background_green"
+        android:src="@drawable/background_pink"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -23,7 +23,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/open_sans_bold"
-        android:text="@string/collaborator_account"
+        android:text="@string/business_account"
         android:textColor="#2F2F2F"
         app:layout_constraintBottom_toBottomOf="@+id/button"
         app:layout_constraintStart_toEndOf="@+id/button"
@@ -54,7 +54,7 @@
             android:drawableStart="@drawable/company"
             android:drawablePadding="8dp"
             android:fontFamily="@font/open_sans"
-            android:hint="@string/user_name"
+            android:hint="@string/company_name"
             android:padding="10dp"
             android:textColor="#000000"
             android:textColorHint="#909090" />

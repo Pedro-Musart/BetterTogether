@@ -6,15 +6,34 @@
     <string name="main_subdescription">Here we turn good attitudes into rewards for you and for everyone!</string>
     <string name="company_button">Company</string>
     <string name="collaborator_button">Collaborator</string>
-    <string name="allow_policy">I agree with the Privacy Policies</string>
-    <string name="password_power">Password strength:</string>
-    <string name="create_account">Create account</string>
+
 
     <!-- Images description -->
     <string name="main_bg_description">White background with red and greens balls</string>
     <string name="logo_description">The logo features a green and red symbol in the shape of a
         flower, but in a minimalist way represents people with raised arms. The logo has the
         words "Better Together" in the same colors as the symbol.</string>
+
+    <!--Company form-->
+    <string name="business_account">Create a Business Account</string>
+    <string name="company_name">Company Name</string>
+    <string name="company_email">Contact Email</string>
+    <string name="company_phone">Phone Number</string>
+    <string name="company_cnpj">Company CNPJ</string>
+    <string name="company_employees">Number of Employees</string>
+    <string name="company_site">Company Website</string>
+    <string name="company_password">Password</string>
+    <string name="password_strength">Password Strength:</string>
+    <string name="allow">I agree with the</string>
+    <string name="policies">Privacy Policies</string>
+    <string name="create_account">Create account</string>
+
+    <!--User form-->
+    <string name="collaborator_account">Create a Collaborator Account</string>
+    <string name="user_name">Name</string>
+    <string name="user_email">Contact Email</string>
+    <string name="user_phone">Phone Number</string>
+    <string name="company_code">Company Code</string>
 
     <!-- Home -->
     <string name="home">Home</string>
@@ -35,4 +54,6 @@
     <string name="locomotion_image">Adhere to use a bicycle to travel to the company</string>
     <string name="locomotion">Adhere to use a bicycle to travel to the company</string>
     <string name="locomotion_point">3 points</string>
+
+
 </resources>
