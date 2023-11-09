@@ -16,11 +16,11 @@ class MainActivity : AppCompatActivity() {
         companyButton = findViewById(R.id.company_btn)
 
         collaboratorButton.setOnClickListener{
-            val openSignup = Intent(this, CollaboratorSignUp::class.java)
+            val openSignup = Intent(this, CollaboratorSignUpActivity::class.java)
             startActivity(openSignup)
         }
         companyButton.setOnClickListener{
-            val openCompanySignup = Intent(this, SignUpActivity::class.java)
+            val openCompanySignup = Intent(this, CompanySignUpActivity::class.java)
             startActivity(openCompanySignup)
         }
 

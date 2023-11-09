@@ -2,11 +2,13 @@
 <resources>
     <!-- Main -->
     <string name="app_name">Better Together</string>
-    <string name="main_description">Una se para um mundo melhor </string>
+    <string name="main_description0">Una-se</string>
+    <string name="main_description1">para um</string>
+    <string name="main_description2">Mundo</string>
+    <string name="main_description3">Melhor</string>
     <string name="main_subdescription">Aqui nós transformamos as boas atitudes em recompensas para você e para todos!</string>
     <string name="company_button">Empresa</string>
     <string name="collaborator_button">Colaborador</string>
-    <string name="create_account">Criar a conta</string>
 
     <!-- Descrição das imagens -->
 
@@ -29,14 +31,16 @@
     <string name="password_strength">Força da senha:</string>
     <string name="allow">Eu concordo com as </string>
     <string name="policies">Políticas de Privacidade</string>
+    <string name="btn_create_account">Criar a Conta</string>
 
     <!--Formulário de usuário-->
     <string name="collaborator_account">Criar uma conta de colaborador</string>
+    <string name="sign_sugestion">Entre com</string>
+    <string name="sign_sugestion1">Ou crie sua conta usando o Email</string>
     <string name="user_name">Nome</string>
     <string name="user_email">E-mail de contato</string>
     <string name="user_phone">Número de telefone</string>
     <string name="company_code">Código da empresa</string>
-
 
     <!-- Home -->
     <string name="home">Home</string>
