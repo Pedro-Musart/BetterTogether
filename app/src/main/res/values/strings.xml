@@ -45,6 +45,7 @@
     <string name="menu">Menu</string>
     <string name="notification">Notification</string>
     <string name="profile">Profile</string>
+    <string name="Awards">Awards</string>
     <string name="medal">Medal</string>
     <string name="teste">teste</string>
     <string name="points">50 points</string>
@@ -69,9 +70,14 @@
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
 
+    <!-- menus name -->
     <string name="menu_home">Home</string>
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_awards">Awards</string>
+    <string name="menu_profile">Profile</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 
 </resources>

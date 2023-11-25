@@ -47,6 +47,7 @@
     <string name="menu">Menu</string>
     <string name="notification">Notificação</string>
     <string name="profile">Perfil</string>
+    <string name="Awards">Prêmios</string>
     <string name="medal">Medalha</string>
     <string name="points">50 pontos</string>
     <string name="teste">teste</string>
@@ -63,4 +64,14 @@
         empresa</string>
     <string name="locomotion">Adira ao uso de bicicleta para se deslocar até a empresa</string>
     <string name="locomotion_point">3 pontos</string>
+
+
+    <!-- menus name -->
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_awards">Prêmios</string>
+    <string name="menu_profile">Perfil</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
